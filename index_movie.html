@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Rating</title>
+    <link rel="stylesheet"
+        href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+    <form>
+        <label for="title">Movie Name:</label>
+        <input type="text" id="title">
+        <label for="rating">Rating:</label>
+        <input type="text" id="rating">
+        <button type="submit" id="submitButton">Sumbit form</button>
+    </form>
+    <section class="output">
+        <table>
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Rating</th>
+                <th>Delete</th>
+              </tr>
+            </thead>
+            <tbody id="listMovies">
+                <!-- Js list enhancement -->
+            
+            </tbody>
+        </table>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="app_movie.js"></script>
+</body>
+</html>
